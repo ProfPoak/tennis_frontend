@@ -55,6 +55,7 @@ class App extends Component {
   }
 
   handleLogOut = () => {
+    console.log("Does this work")
     localStorage.removeItem("token");
     localStorage.removeItem("type");
 
